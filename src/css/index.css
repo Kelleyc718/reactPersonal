@@ -153,10 +153,12 @@ iframe {
 
 /* Footer Styles */
 .social-container {
+  grid-column: 3/4;
+  margin-bottom: 1rem;
   position: fixed;
-  bottom: 250px;
+  bottom: 15vmin;
+  right: 5vmin;
   height: 5vmin;
-  position: fixed;
 }
 
 .social-container>a {

@@ -4,7 +4,6 @@ import'../css/App.css';
 class NavBar extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
       hover: false
     };
