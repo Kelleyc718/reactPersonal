@@ -9,12 +9,23 @@ class App extends Component {
     return (
       <div className="App">
         <Nav />
-        <div className="bg1"></div>
-        <div className="section-one">filler content</div>
-        <div className="bg2"></div>
+        <div className="bg1">
+          <a name="top" />
+        </div>
+        <div className="section-one">
+          filler content
+        </div>
+        <div className="bg2">
+          <a name="about" />
+        </div>
         <div className="section-two">filler content</div>
-        <div className="bg3"></div>
+        <div className="bg3">
+          <a name="portfolio" />
+        </div>
         <Portfolio />
+        <div className="bg4">
+          <a name="contact" />
+        </div>
         <Social />
       </div>
     );

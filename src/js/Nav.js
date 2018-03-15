@@ -22,6 +22,9 @@ class NavBar extends Component {
         <li className="home btn">
           <a href='#home' onMouseEnter={this.handleHover} className="home">Home</a>
         </li>
+        <li className="about btn">
+          <a href='#about' onMouseEnter={this.handleHover} className="about">About</a>
+        </li>
         <li className="port btn">
           <a href='#portfolio' onMouseEnter={this.handleHover} className="portfolio">Portfolio</a>
         </li>
