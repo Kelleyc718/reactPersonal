@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../css/App.css';
 import '../css/index.css';
 import Nav from '../js/Nav';
 import Portfolio from '../js/Portfolio'
@@ -9,17 +8,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="parallax-content">
-          <div className="parallax"></div>
-        </div>
         <Nav />
-        <div className="parallax-content">
-          <div className="parallax"></div>
-        </div>
+        <div className="bg1"></div>
+        <div className="section-one">filler content</div>
+        <div className="bg2"></div>
+        <div className="section-two">filler content</div>
+        <div className="bg3"></div>
         <Portfolio />
-        <div className="parallax-content">
-          <div className="parallax"></div>
-        </div>
         <Social />
       </div>
     );

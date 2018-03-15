@@ -9,46 +9,65 @@ html, body {
 * {
   box-sizing: border-box;
 }
+/* Main Content Styles */
+
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 5vmin 1fr 5vmin;
+  grid-template-rows: repeat(8, 1fr);
+  height: 100%;
+}
+
+h1 {
+  padding-top: 35vmin;
+}
+
+h3 {
+  padding-top: 1rem;
+}
 
 /* Parrallax Container and styles */
-.parallax-content {
-  grid-column: 1/4;
+.bg1 {
   background-image: url(../img/sf.jpeg);
+  min-height: 100%;
+  grid-row: 1/3;
 }
 
-.parallax-content{
+.bg2 {
+  background-image: url(../img/mil.jpeg);
+  min-height: 100%;
+  grid-row: 4/5;
+}
+
+.bg3 {
+  background-image: url(../img/contactImg.jpeg);
+  min-height: 100%;
+  grid-row: 8/9;
+}
+
+.bg1, .bg2, .bg3 {
+  grid-column: 1/4;
   position: relative;
-  overflow: hidden;
-  height: 100vh;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.parallax {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
+.section-one {
+  position: relative;
+  height: 80vh;
+  grid-column: 1/3;
+  grid-row: 3;
 }
 
-.parallax:before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 100%;
-  z-index: -1;
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: 30% auto;
+.section-two {
+  position: relative;
+  height: 80vh;
+  grid-column: 1/3;
+  grid-row: 6;
 }
-
 
 /* Nav Styling */
 .nav-main {
@@ -78,7 +97,7 @@ html, body {
   display: block;
   height: 70px;
   width: 100px;
-  opacity: 0.6;
+  opacity: 0.9;
   visibility: visible;
   text-decoration: none;
   transition-timing-function: ease-in;
@@ -106,33 +125,9 @@ html, body {
   filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60);
 }
 
-/* Main Content Styles */
-.App {
-  display: grid;
-  grid-template-columns: 5vmin 1fr 5vmin;
-  grid-template-rows: 5vmin 1fr 1fr 1fr 5vmin;
-}
-
-
-.para-head {
-  margin: 1rem;
-  grid-row: 2/3;
-  grid-column: 2;
-  z-index: 1;
-  margin: 0;
-  background: #0000;
-}
-h1 {
-  padding-top: 35vmin;
-}
-
-h3 {
-  padding-top: 1rem;
-}
-
 /* Portfolio Styles */
 .portfolio-container {
-  grid-row: 4;
+  grid-row: 7/8;
   grid-column: 2;
   height: 100vmin;
 }

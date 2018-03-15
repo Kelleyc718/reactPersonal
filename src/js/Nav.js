@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import'../css/App.css';
+import'../css/index.css';
 
 class NavBar extends Component {
   constructor(props) {
@@ -7,7 +7,6 @@ class NavBar extends Component {
     this.state = {
       hover: false
     };
-
     this.handleHover = this.handleHover.bind(this);
   };
 
