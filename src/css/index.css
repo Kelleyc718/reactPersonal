@@ -14,7 +14,7 @@ html, body {
 .App {
   text-align: center;
   display: grid;
-  grid-template-columns: 5vmin 1fr 5vmin;
+  grid-template-columns: 1fr;
   grid-template-rows: repeat(7, 1fr);
   height: 100%;
 }
@@ -103,7 +103,7 @@ h3 {
   display: block;
   height: 70px;
   width: 100px;
-  opacity: 0.9;
+  opacity: 1;
   visibility: visible;
   text-decoration: none;
   transition-timing-function: ease-in;
@@ -127,29 +127,62 @@ h3 {
   -webkit-border-top-right-radius: 10px;
   -khtml-border-bottom-right-radius: 10px;
   -khtml-border-top-right-radius: 10px;
-  opacity: 0.6;
+  opacity: 1;
   filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60);
 }
 
 /* Portfolio Styles */
 .portfolio-container {
+  grid-column: 1/2;
+  display: flex;
+  flex-flow: column;
   grid-row: 6/7;
-  grid-column: 2;
+  grid-column: 1;
+  width: 100%;
   height: 100vmin;
 }
 
 .slide-1 {
-  margin: 10vmin;
-  position:relative;
-  padding-bottom:54%;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 70vmin 10vmin;
+  grid-template-columns: auto;
+  margin: 5vmin;
+  position: relative;
+  padding-bottom: 54%;
 }
 
 iframe {
-  width: 100%;
-  height:90%;
-  position: absolute;
-  top:0;
-  left:0;
+  margin: auto;
+  grid-row: 1/2;
+  grid-column: 1/7;
+  min-width: 100%;
+  height: 90%;
+}
+
+ .demo {
+   margin: auto;
+  grid-row: 2/3;
+  grid-column: 3/4;
+  box-shadow: 5px 5px 15px -5px;
+  height: 30px;
+  width: 75px;
+  border-radius: 5%;
+}
+
+.source {
+  margin: auto;
+  grid-row: 2/3;
+  grid-column: 4;
+  box-shadow: 5px 5px 15px -5px;
+  height: 30px;
+  width: 75px;
+  border-radius: 5%;
+}
+
+button {
+  height: 30px;
+  width: 75px;
 }
 
 /* Footer Styles */

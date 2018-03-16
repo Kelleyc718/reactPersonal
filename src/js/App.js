@@ -10,7 +10,7 @@ class App extends Component {
       <div className="App">
         <Nav />
         <div className="bg1">
-          <a name="top" />
+          <a name="home" />
         </div>
         <div className="section-one">
           filler content

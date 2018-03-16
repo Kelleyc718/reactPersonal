@@ -7,14 +7,18 @@ class Portfolio extends Component {
       <div className="portfolio-container">
         <div className="portfolio slide-1">
           <iframe className="portfolio-demo" title="cmGif" src='https://gfycat.com/ifr/TheseQuaintEyas'></iframe>
-          <button className="demo">
-            <a href="https://github.com/emma-chris/contactsManager">Demo </a>
-          </button>
-          <button className="source">
-            <a href="https://github.com/emma-chris/contactsManager" alt="Source Code">Source</a>
-          </button>
+          <a href="https://github.com/emma-chris/contactsManager" className="demo">
+            <button>
+              Demo
+            </button>
+          </a>
+          <a href="https://github.com/emma-chris/contactsManager" className="source">
+            <button>
+              Source
+            </button>
+          </a>
         </div>
-        <div className="portfolio slide-2">
+          <div className="portfolio slide-2">
           <img src={this.props.img} alt="portfolio project" />
         </div>
         <div className="portfolio slide-3">
