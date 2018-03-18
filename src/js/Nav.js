@@ -18,9 +18,6 @@ class NavBar extends Component {
 
   render() {
     return (<ul className="nav-main">
-      <li className="home btn">
-        <a href='#home' onMouseEnter={this.handleHover} className="home">Home</a>
-      </li>
       <li className="about btn">
         <a href='#about' onMouseEnter={this.handleHover} className="about">About</a>
       </li>
