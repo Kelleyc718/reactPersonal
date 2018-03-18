@@ -11,9 +11,13 @@ class App extends Component {
         <Nav />
         <div className="bg1">
           <a name="home" />
+          <div className="title-container">
+            <h1>Chris Kelley</h1>
+            <h3>Father, Husband, Developer</h3>
+          </div>
         </div>
         <div className="section-one">
-          filler content
+          <h2 className="fade-out"> A little something about me... </h2>
         </div>
         <div className="bg2">
           <a name="about" />

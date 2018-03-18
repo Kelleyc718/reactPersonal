@@ -4,9 +4,11 @@
   "private": true,
   "dependencies": {
     "proptypes": "^1.1.0",
+    "pure-react-carousel": "^1.11.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.1.1"
+    "react-scripts": "1.1.1",
+    "yarn": "^1.5.1"
   },
   "scripts": {
     "start": "react-scripts start",
