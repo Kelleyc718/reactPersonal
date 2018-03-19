@@ -30,7 +30,7 @@ html, body {
   display: grid;
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: repeat(4, 1fr);
-    background-image: url(/static/media/sf.d1ea571e.jpeg);
+    background-image: url(../img/sf.jpeg);
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
     grid-row: 1/2;

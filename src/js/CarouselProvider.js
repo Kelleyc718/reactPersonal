@@ -11,7 +11,8 @@ export default class extends React.Component {
     this.handleClick = this.handleClick.bind(this);
   };
 
-  handleClick() {
+  handleClick(event) {
+    console.log(event.target);
     this.setState({
       index: this.state.index
     })
@@ -23,8 +24,8 @@ export default class extends React.Component {
         naturalSlideWidth={125}
         totalSlides={3}
       hasMasterSpinner>
-        <Slider>
-          <Slide index={0}>
+        <Slider >
+          <Slide index={0} onChange={this.handleClick}>
             <Image src="https://thumbs.gfycat.com/KeenElectricGelada-size_restricted.gif" />
           </Slide>
           <Slide index={1}>
@@ -35,7 +36,7 @@ export default class extends React.Component {
           </Slide>
         </Slider>
         <ButtonBack>Back</ButtonBack>
-        <ButtonNext>Next</ButtonNext>
+        <ButtonNext id={0} onClick={this.handleClick}>Next</ButtonNext>
       </CarouselProvider>
     );
   }

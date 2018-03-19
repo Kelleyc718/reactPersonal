@@ -7,7 +7,7 @@ class Button extends Component {
       <button
         className='sourceBtn'
         onClick={this.props.handleClick}>Source
-      </button> 
+      </button>
       );
     }
   }
