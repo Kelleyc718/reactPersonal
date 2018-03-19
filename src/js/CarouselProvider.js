@@ -3,6 +3,19 @@ import { CarouselProvider, Slider, Slide, Image, ButtonBack, ButtonNext } from '
 import 'pure-react-carousel/dist/react-carousel.es.css';
 
 export default class extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      index: 0
+    };
+    this.handleClick = this.handleClick.bind(this);
+  };
+
+  handleClick() {
+    this.setState({
+      index: this.state.index
+    })
+  }
   render() {
     return (
       <CarouselProvider
@@ -12,7 +25,7 @@ export default class extends React.Component {
       hasMasterSpinner>
         <Slider>
           <Slide index={0}>
-            <Image src="https://wallpaperclicker.com/storage/wallpaper/COOL-music-headphone-WALLPAPER-7050-19274886.jpg#.Wq2sduXmiNA.link" />
+            <Image src="https://thumbs.gfycat.com/KeenElectricGelada-size_restricted.gif" />
           </Slide>
           <Slide index={1}>
             <Image src="https://image.iol.co.za/image/1/process/620x349?source=https://inm-baobab-prod-eu-west-1.s3.amazonaws.com/public/inm/media/2017/07/24/iol/499/IOL-mot-pic-jul24-Subaru-WRX-STI-Type-RA-NBR-Special-1.jpg&operation=CROP&offset=39x37&resize=1144x641" />
