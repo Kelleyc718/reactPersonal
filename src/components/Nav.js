@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../css/index.css';
 
-class NavBar extends Component {
+class Nav extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -31,4 +31,4 @@ class NavBar extends Component {
   }
 }
 
-export default NavBar;
+export default Nav;
