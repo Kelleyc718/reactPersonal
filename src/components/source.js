@@ -1,28 +1,28 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { WithStore } from 'pure-react-carousel';
+import '../css/index.css';
+const firstUrl = 'https://raw.githubusercontent.com/emma-chris/contactsManager/master/src/ContactsManager.java';
+const secondUrl = "ha";
+const thirdUrl = "ja";
 
 class Source extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      src: src;
-      showIframe: false;
-      btnName: 'Show Source';
-    }
-    this.handleClick = this.handleClick.bind(this);
+
+  handleChange() {
+    let slide = this.props.currentSlide;
+    return (slide === 0) ? firstUrl
+    : (slide === 1) ? secondUrl
+    : thirdUrl;
   }
 
-  handleClick(e) {
-    this.setState({
-      showIframe: true;
-      btnName: 'Close Source';
-    })
-  }
   render() {
     return (
-      <div>
-        <iframe className='ghSource' src={this.props.src}></iframe>
-      </div>
+        <div>
+          <iframe src={firstUrl} className='source-code' title='source' />
+        </div>
     )
   }
 }
+
+export default WithStore(Source, state => ({
+  currentSlide: state.currentSlide
+}));
