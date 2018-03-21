@@ -1,7 +1,7 @@
 import React from "react";
 import { CarouselProvider, Slider, Slide, Image, ButtonBack, ButtonNext } from 'pure-react-carousel';
-import Button from './Button';
 import 'pure-react-carousel/dist/react-carousel.es.css';
+import SourceBtn from './SourceBtn';
 
 export default class extends React.Component {
   render() {
@@ -11,6 +11,7 @@ export default class extends React.Component {
         naturalSlideWidth={125}
         totalSlides={3}
       hasMasterSpinner>
+        <SourceBtn />
         <Slider>
           <Slide index={0}>
             <Image src="https://thumbs.gfycat.com/KeenElectricGelada-size_restricted.gif" />
@@ -24,7 +25,6 @@ export default class extends React.Component {
         </Slider>
         <ButtonBack onClick={this.handleChange}>Back</ButtonBack>
         <ButtonNext onClick={this.handleChange}>Next</ButtonNext>
-        <Button />
       </CarouselProvider>
     );
   }

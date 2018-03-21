@@ -8,10 +8,8 @@ class Portfolio extends Component {
     return (
       <div className="bg3">
         <a name="portfolio" />
-        <div className="portfolio-container">
-          <div className='carousel-container'>
-            <CarouselProvider />
-          </div>
+        <div className='carousel-container'>
+          <CarouselProvider />
         </div>
       </div>
     );

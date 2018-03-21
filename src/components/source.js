@@ -1,7 +1,8 @@
 import React from 'react';
 import { WithStore } from 'pure-react-carousel';
 import '../css/index.css';
-const firstUrl = 'https://raw.githubusercontent.com/emma-chris/contactsManager/master/src/ContactsManager.java';
+
+const firstUrl = 'https://emma-chris.github.io/contactsManager/'
 const secondUrl = "ha";
 const thirdUrl = "ja";
 
@@ -16,9 +17,7 @@ class Source extends React.Component {
 
   render() {
     return (
-        <div>
-          <iframe src={firstUrl} className='source-code' title='source' />
-        </div>
+      <embed src={firstUrl} height='50vmin' width='50vmin' />
     )
   }
 }
