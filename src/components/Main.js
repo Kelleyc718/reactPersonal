@@ -1,6 +1,6 @@
 import React from 'react';
 import Landing from './Landing'
-import Bio from '../components/bio';
+import Bio from './Bio';
 import Portfolio from '../components/Portfolio';
 import Contact from '../components/Contact';
 import '../css/index.css';

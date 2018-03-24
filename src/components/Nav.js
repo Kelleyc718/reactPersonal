@@ -1,34 +1,48 @@
 import React, {Component} from 'react';
-import '../css/index.css';
+import Burger from './Burger';
+import Notburger from './NotBurger';
+import '../css/nav.css';
 
 class Nav extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      hover: false
-    };
-    this.handleHover = this.handleHover.bind(this);
-  };
+    constructor() {
+      super();
+      this.state = {
+        windowSize: window.innerWidth,
+      }
+      this.handleResize = this.handleResize.bind(this);
+    }
 
-  handleHover() {
-    this.setState({
-      hover: !this.state.hover
-    })
-  }
+    componentDidMount() {
+      window.addEventListener('resize', this.handleResize.bind(this));
+    }
 
-  render() {
-    return (<ul className="nav-main">
-      <li className="about btn">
-        <a href='#about' onMouseEnter={this.handleHover} className="about">About</a>
-      </li>
-      <li className="port btn">
-        <a href='#portfolio' onMouseEnter={this.handleHover} className="portfolio">Portfolio</a>
-      </li>
-      <li className="contact btn">
-        <a href='#contact' onMouseEnter={this.handleHover} className="contact">Contact</a>
-      </li>
-    </ul>);
+    componentWillUnmount() {
+      window.removeEventListener('resize', this.handleResize.bind(this));
+    }
+
+    handleResize() {
+      this.setState({
+        windowSize: window.innerWidth,
+      })
+    }
+
+    renderNav() {
+      if(this.state.windowSize <= 568) {
+        return (
+          <Burger />
+        )
+      } else {
+        return (
+          <Notburger />
+        )
+      }
+    }
+
+    render() {
+      return(
+        <div>{this.renderNav()} </div>
+      )
+    }
   }
-}
 
 export default Nav;

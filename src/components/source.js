@@ -1,6 +1,6 @@
 import React from 'react';
 import { WithStore } from 'pure-react-carousel';
-import '../css/index.css';
+import '../css/porfolio.css';
 
 const firstUrl = 'https://emma-chris.github.io/contactsManager/'
 const secondUrl = "ha";

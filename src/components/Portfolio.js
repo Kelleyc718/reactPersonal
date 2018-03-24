@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import CarouselProvider from './CarouselProvider';
-import '../css/index.css';
+import '../css/porfolio.css';
 
 
 class Portfolio extends Component {

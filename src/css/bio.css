@@ -1,0 +1,32 @@
+.bg2 {
+  display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  background-image: url(../img/mil.jpeg);
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  min-height: 100vmin;
+  opacity: 0.9;
+}
+
+.bio {
+  border-radius: 5%;
+  display: flex;
+  flex-flow: column;
+  grid-column: 2;
+  background: black;
+  grid-row: 2;
+  height: 60vh;
+  margin: auto;
+  opacity: 0.8;
+  width: 60vw;
+}
+
+.bio p {
+  font-size: calc(0.6rem + 1vw);
+  line-height: 2rem;
+  margin: auto 2rem;
+  color: #fff;
+  text-align: left;
+}

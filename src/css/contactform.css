@@ -1,0 +1,47 @@
+.bg4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  background-image: url(../img/contactimg.jpeg);
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 1;
+  grid-row: 7/8;
+  min-height: 100vh;
+  opacity: 0.9;
+}
+
+/* Contact */
+form {
+  color: #fff;
+  border:2px solid #98de2c;
+  background-color:#52613b;
+  grid-column: 2/4;
+  grid-row: 2/4;
+}
+
+form>h3 {
+  padding: 1rem;
+  margin: auto;
+}
+
+form>input {
+  display: block;
+  width: 50%;
+  margin: 1rem 1rem 1rem;
+}
+
+form>textarea {
+  width: 90%;
+  height: 50%;
+  margin: 1rem 1rem 1rem;
+  display: block;
+}
+
+form>button {
+  color: #fff;
+  border:2px solid #98de2c;
+  background-color:#52613b;
+  padding: 0.6rem;
+  margin: 1rem 1rem 0 1rem;
+  display: block;
+}
