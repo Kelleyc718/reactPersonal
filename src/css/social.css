@@ -3,7 +3,6 @@
   -ms-grid-column: 3;
   -ms-grid-column-span: 1;
   grid-column: 3/4;
-  margin-bottom: 1rem;
   position: fixed;
   bottom: 48%;
   right: 2vmin;
