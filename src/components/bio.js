@@ -7,6 +7,7 @@ class Bio extends Component {
       <div className="bg2">
         <div className="bio">
           <a name="about" />
+          <h2 className='bio-header'>A little about me...</h2>
           <p>
             After graduating from High School in the Bay Area, I relocated to Sacramento to pursue my undergraduate degree. I spent 3 years trying to juggle two jobs, to pay for tuition and rent, while also taking on a full course load. Eventually, school took a back seat to make ends meet.
           </p>

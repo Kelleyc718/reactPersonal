@@ -1,22 +1,22 @@
 .bg2 {
   display: grid;
-  grid-template-rows: 10vh 1fr 10vh;
+  grid-template-rows: 20vh 1fr 20vh;
   background-image: url(../img/mil.jpeg);
 }
 
 .bio {
+  align-self: start;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #eee;
+  color: #eee;
   grid-row: 2;
-  border-radius: 5%;
-  background: black;
-  margin: auto;
-  opacity: 0.8;
   width: 90%;
 }
 
 .bio p {
   text-indent: 5vw;
   line-height: 1.6rem;
-  padding: 1rem;
-  color: #fff;
+  padding-left: 1rem;
+  padding-right: 1rem;
   text-align: left;
 }

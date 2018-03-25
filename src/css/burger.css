@@ -3,8 +3,8 @@
   position: fixed;
   width: 1.6rem;
   height: 1.6rem;
-  left: 1.6rem;
-  top: 1.6rem;
+  left: 1rem;
+  top: 1rem;
 }
 
 /* Color/shape of burger icon bars */
@@ -44,14 +44,12 @@
 
 .menuBtn {
   outline: medium none currentcolor;
-  padding-top: 4rem;
+  margin-top: 4rem;
   background-color: black;
   border-radius: 5%;
 }
 
 .menuBtn>a {
   color: white;
-  margin: auto;
-  padding-top: 5rem;
   text-decoration: none;
 }

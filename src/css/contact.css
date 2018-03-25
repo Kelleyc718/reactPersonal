@@ -1,0 +1,41 @@
+.bg4 {
+  background-image: url(../img/contactimg.jpeg);
+  height: 100vh;
+}
+
+/* Contact */
+form {
+  align-self: start;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #eee;
+  color: #eee;
+  text-align: left;
+  width: 90%;
+}
+
+form>h3 {
+  padding: 1rem;
+  margin: auto;
+}
+
+form>input {
+  display: block;
+  width: 75%;
+  margin: 1rem;
+}
+
+form>textarea {
+  width: 90%;
+  height: 30vmin;
+  margin: 1rem;
+  display: block;
+}
+
+form>button {
+  color: #eee;
+  border:2px solid #eee;
+  background-color:rgba(0, 0, 0, 0.5);
+  padding: 0.6rem;
+  margin: 1rem;
+  display: block;
+}
