@@ -9,7 +9,6 @@ class Landing extends Component {
           <h1>Chris Kelley</h1>
           <h3>Father, Husband, Developer</h3>
         </div>
-        <h2 className="bio-pretext"> A little something about me... </h2>
       </div>
     )
   }

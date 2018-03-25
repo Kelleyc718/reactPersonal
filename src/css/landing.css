@@ -1,32 +1,14 @@
 .bg1 {
+  height: 100vh;
   display: grid;
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-columns: repeat(4, 1fr);
   background-image: url(../img/sf.jpeg);
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
-  grid-row: 1/2;
-  min-height: 120vh;
-  opacity: 0.9;
 }
 
 .title-container {
   color: #fff;
-  font-size: calc(1rem + 0.6vw);
-  grid-column: 2/4;
-  grid-row: 2/3;
   margin: auto;
-  text-align: center;
-  opacity: 0.9;
 }
 
-.bio-pretext {
-  color: #fff;
-  font-size: calc(1rem + 2vw);
-  grid-column: 2/4;
-  grid-row: 4;
-  margin: auto;
-  opacity: 0.7;
-  padding-top: 1rem;
-  text-align: center;
+.title-container h1, h3 {
+  margin: 0;
 }

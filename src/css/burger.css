@@ -1,15 +1,15 @@
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: fixed;
-  width: 36px;
-  height: 30px;
-  left: 36px;
-  top: 36px;
+  width: 1.6rem;
+  height: 1.6rem;
+  left: 1.6rem;
+  top: 1.6rem;
 }
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #373a47;
+  background: #eee;
 }
 
 /* Position and sizing of clickable cross button */
@@ -44,7 +44,7 @@
 
 .menuBtn {
   outline: medium none currentcolor;
-  padding: 4rem;
+  padding-top: 4rem;
   background-color: black;
   border-radius: 5%;
 }
@@ -54,8 +54,4 @@
   margin: auto;
   padding-top: 5rem;
   text-decoration: none;
-}
-/* Styling of overlay */
-  .bm-overlay {
-    background: rgba(0, 0, 0, 0.3);
 }

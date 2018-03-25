@@ -1,16 +1,7 @@
 .social-container {
-  font-size: 1rem;
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 1;
-  grid-column: 3/4;
   position: fixed;
-  bottom: 48%;
+  bottom: 5%;
   right: 2vmin;
-}
-
-
-.social-container>a {
-  display: block;
 }
 
 .social-container>a>img {

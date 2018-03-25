@@ -5,15 +5,15 @@ import '../css/burger.css'
 class Burger extends React.Component {
   render () {
     return (
-      <Menu>
+      <Menu width={'50%'}>
         <div className="menuBtn">
-          <a id="about" className="menu-item" href="#about">About</a>
+          <a href="#about">About</a>
         </div>
         <div className="menuBtn">
-          <a id="portfolio" className="menu-item" href="#portfolio">Portfolio</a>
+          <a href="#portfolio">Portfolio</a>
         </div>
         <div className="menuBtn">
-          <a id="contact" className="menu-item" href="#contact">Contact</a>
+          <a href="#contact">Contact</a>
         </div>
       </Menu>
     );
