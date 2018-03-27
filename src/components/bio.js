@@ -4,7 +4,7 @@ import '../css/bio.css';
 class Bio extends Component {
   render() {
     return (
-      <div className="bg2">
+      <div className="bio-bg">
         <div className="bio">
           <a name="about" />
           <h2 className='bio-header'>A little about me...</h2>

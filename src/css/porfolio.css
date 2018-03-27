@@ -1,11 +1,12 @@
-.bg3 {
-  background-image: url(../img/matrix.jpeg);
+.portfolio-bg {
+  background-image: url(../img/portfolio.jpg);
   height: 110vh;
 }
 
 .carousel-container {
-  width: 90vw;
-  height: 100%;
+  width: 75%;
+  max-width: 800px;
+  height: auto;
 }
 
 .carousel {

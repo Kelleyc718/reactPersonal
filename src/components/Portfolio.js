@@ -6,7 +6,7 @@ import '../css/porfolio.css';
 class Portfolio extends Component {
   render() {
     return (
-      <div className="bg3">
+      <div className="portfolio-bg">
         <a name="portfolio" />
         <div className='carousel-container'>
           <CarouselProvider />

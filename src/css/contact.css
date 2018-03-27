@@ -1,4 +1,4 @@
-.bg4 {
+.contact-bg {
   background-image: url(../img/contactimg.jpeg);
   height: 100vh;
 }
@@ -10,7 +10,8 @@ form {
   border: 2px solid #eee;
   color: #eee;
   text-align: left;
-  width: 90%;
+  width: 85%;
+  max-width: 400px;
 }
 
 form>h3 {
@@ -20,7 +21,7 @@ form>h3 {
 
 form>input {
   display: block;
-  width: 75%;
+  width: 90%;
   margin: 1rem;
 }
 

@@ -23,7 +23,7 @@ html, body {
     grid-template-rows: auto;
 }
 
-.bg1, .bg2, .bg3, .bg4 {
+.landing-bg, .bio-bg, .portfolio-bg, .contact-bg {
   display: grid;
     justify-items: center;
     align-items: center;
@@ -38,7 +38,7 @@ html, body {
 
 /* On Mobile background-attachment: scroll; */
 @media only screen and (max-device-width: 768px) {
-  .bg1, .bg2, .bg3, .bg4 {
+  .landing-bg, .bio-bg, .portfolio-bg, .contact-bg {
     background-attachment: scroll;
   }
 }
