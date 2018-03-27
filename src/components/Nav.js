@@ -27,7 +27,7 @@ class Nav extends Component {
     }
 
     renderNav() {
-      if(this.state.windowSize <= 568) {
+      if(this.state.windowSize <= 813) {
         return (
           <Burger />
         )

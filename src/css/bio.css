@@ -1,16 +1,16 @@
 .bio-bg {
-  display: grid;
-  grid-template-rows: 20vh 1fr 20vh;
   background-image: url(../img/mil.jpeg);
+  height: 110vh;
 }
 
 .bio {
-  align-self: start;
+  margin: auto;
+  padding: auto;
   background-color: rgba(0, 0, 0, 0.5);
   border: 2px solid #eee;
   color: #eee;
-  grid-row: 2;
   width: 90%;
+  height: auto;
   max-width: 600px;
 }
 

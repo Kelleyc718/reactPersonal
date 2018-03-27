@@ -37,7 +37,7 @@ html, body {
 }
 
 /* On Mobile background-attachment: scroll; */
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-device-width: 813px) {
   .landing-bg, .bio-bg, .portfolio-bg, .contact-bg {
     background-attachment: scroll;
   }
@@ -45,7 +45,7 @@ html, body {
 
   @media only screen
     and (min-device-width: 375px)
-    and (max-device-width: 667px)
+    and (max-device-width: 815px)
     and (-webkit-min-device-pixel-ratio: 2)
     and (orientation: landscape) {
     .portfolio-bg {
