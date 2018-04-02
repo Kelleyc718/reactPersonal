@@ -11,7 +11,7 @@ form {
   color: #eee;
   text-align: left;
   width: 85%;
-  max-width: 400px;
+  max-width: 600px;
 }
 
 form>h3 {
@@ -20,12 +20,16 @@ form>h3 {
 }
 
 form>input {
+  font-size: 1rem;
+  padding: 0.6rem;
   display: block;
   width: 90%;
   margin: 1rem;
 }
 
 form>textarea {
+  font-size: 1rem;
+  padding: 0.6rem;
   width: 90%;
   height: 30vmin;
   margin: 1rem;

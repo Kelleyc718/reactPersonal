@@ -32,23 +32,15 @@
   margin: 1rem;
 }
 
-.sourceBtn {
-  cursor: pointer;
-  border-radius: 5%;
-  color: #fff;
-  border:2px solid #eee;
-  background-color:black;
-  padding: 0.6rem;
-  margin: 1rem;
+.portfolio-title {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+  border: 2px solid #eee;
+  color: #eee;
 }
 
-embed {
-  grid-column: 1/3;
-  transform: scale(0.8);
-  height:100vmin;
-  width: 50vw;
-  background: white;
-  opacity: 1;
+i {
+  font-size: 3rem;
 }
 
 /* Landscape */

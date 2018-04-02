@@ -1,7 +1,7 @@
 import React from "react";
 import { CarouselProvider, Slider, Slide, Image, ButtonBack, ButtonNext } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
-import SourceBtn from './SourceBtn';
+import Source from './Source';
 
 export default class extends React.Component {
   render() {
@@ -11,7 +11,7 @@ export default class extends React.Component {
         naturalSlideWidth={125}
         totalSlides={3}
       hasMasterSpinner>
-        <SourceBtn />
+        <Source />
         <Slider>
           <Slide index={0}>
             <Image src="https://thumbs.gfycat.com/KeenElectricGelada-size_restricted.gif" />
