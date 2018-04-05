@@ -33,14 +33,33 @@
 }
 
 .portfolio-title {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   margin-bottom: 1rem;
   border: 2px solid #eee;
   color: #eee;
 }
 
-i {
-  font-size: 3rem;
+.portfolio-title>h1, h6 {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #eee;
+  text-decoration: none;
+}
+
+.portfolio-title i {
+  font-size: 2.6rem;
+  padding: 1rem;
+}
+
+.portfolio-title>p {
+  font-size: 1rem;
+  padding: 0 1rem;
+  text-align: left;
+  text-indent: inherit;
 }
 
 /* Landscape */

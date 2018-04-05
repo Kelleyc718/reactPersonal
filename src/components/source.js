@@ -7,11 +7,22 @@ const titles =
 [
     {
       title: "Contacts Manager",
-      lang: <i class="devicon-java-plain-wordmark"/>
+      lang: <i className="devicon-java-plain-wordmark"></i>,
+      sUrl:
+        <a href="https://github.com/emma-chris/contactsManager">
+          <i className="devicon-github-plain-wordmark"></i>
+        </a>,
+        desc: " Simple phone contact demo using Java 9."
     },
     {
-      title: "STI",
-      lang: <img src="otherstuff"/>
+      title: "Github File List Utility",
+      lang:
+        <i className="devicon-javascript-plain"></i>,
+      sUrl:
+        <a href="https://github.com/Kelleyc718/GHFileLister">
+          <i className="devicon-github-plain-wordmark"></i>
+        </a>,
+        desc: " A utility made for fun. Uses Github's v3 REST API to access a users public repo and list the files. Recursively checks folder contents as well."
     },
     {
       title: "Ducati",
@@ -31,8 +42,16 @@ class Source extends React.Component {
   render() {
     return (
       <div className="portfolio-title">
-        <h1>{this.handleChange().title}</h1>
-        <p>{this.handleChange().lang}</p>
+        <h1>Portfolio</h1>
+        <h6>Click the Github Icon to check out the source code.</h6>
+        <p>
+          {this.handleChange().title}:
+        </p>
+        <p>
+          {this.handleChange().desc}
+        </p>
+          {this.handleChange().lang}
+          {this.handleChange().sUrl}
       </div>
     )}
 }

@@ -7,7 +7,7 @@ class Portfolio extends Component {
   render() {
     return (
       <div className="portfolio-bg">
-        <a name="portfolio" alt="portfolio-link"> </a> 
+        <a className="portfolio" alt="portfolio-link"> </a>
           <div className='carousel-container'>
           <CarouselProvider />
         </div>
