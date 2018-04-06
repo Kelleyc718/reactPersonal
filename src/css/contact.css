@@ -10,12 +10,12 @@ form {
   border: 2px solid #eee;
   color: #eee;
   text-align: left;
-  width: 85%;
+  width: 95%;
   max-width: 600px;
 }
 
 form>h3 {
-  padding: 1rem;
+  padding: 1.6rem;
   margin: auto;
 }
 
@@ -23,14 +23,14 @@ form>input {
   font-size: 1rem;
   padding: 0.6rem;
   display: block;
-  width: 90%;
+  width: 95%;
   margin: 1rem;
 }
 
 form>textarea {
   font-size: 1rem;
   padding: 0.6rem;
-  width: 90%;
+  width: 95%;
   height: 30vmin;
   margin: 1rem;
   display: block;

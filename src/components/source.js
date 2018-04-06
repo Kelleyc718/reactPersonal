@@ -25,8 +25,16 @@ const titles =
         desc: " A utility made for fun. Uses Github's v3 REST API to access a users public repo and list the files. Recursively checks folder contents as well."
     },
     {
-      title: "Ducati",
-      lang: <img src="morestuff"/>
+      title: "Weather App",
+      lang: <span>
+        <i className="devicon-javascript-plain"></i>
+        <i className="devicon-webpack-plain colored"></i>
+      </span>,
+      sUrl:
+        <a href="https://github.com/Kelleyc718/codeup-web-exercises/tree/master/deploy/weatherMap">
+          <i className="devicon-github-plain-wordmark"></i>
+        </a>,
+        desc: " Weather App utilizing Open Weather API, Google Maps API, IP API. Uses users originating IP address to populate initial weather. Also plays with Material IO's design tools."
     }
 ]
 
