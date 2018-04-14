@@ -9,7 +9,7 @@ export default class extends React.Component {
       <CarouselProvider
         naturalSlideHeight={75}
         naturalSlideWidth={125}
-        totalSlides={3}
+        totalSlides={4}
       hasMasterSpinner>
         <Source />
         <Slider>
@@ -20,6 +20,9 @@ export default class extends React.Component {
             <Image src="https://thumbs.gfycat.com/IncompatibleAbandonedGlassfrog-size_restricted.gif" />
           </Slide>
           <Slide index={2}>
+            <Image src="https://cdp.azureedge.net/products/USA/DU/2017/MC/SUPERSPORT/SUPERBIKE_959_PANIGALE/50/ARCTIC_WHITE_SILK/2000000003.jpg" />
+          </Slide>
+          <Slide index={3}>
             <Image src="https://cdp.azureedge.net/products/USA/DU/2017/MC/SUPERSPORT/SUPERBIKE_959_PANIGALE/50/ARCTIC_WHITE_SILK/2000000003.jpg" />
           </Slide>
         </Slider>
