@@ -17,7 +17,7 @@ export default class extends React.Component {
             <Image src="https://thumbs.gfycat.com/UnhappyGiganticHomalocephale-size_restricted.gif" />
           </Slide>
           <Slide index={1}>
-
+            <Image src="https://thumbs.gfycat.com/AllSnivelingBlackbird-size_restricted.gif"/>
           </Slide>
           <Slide index={2}>
             <Image src="https://thumbs.gfycat.com/KeenElectricGelada-size_restricted.gif" />
