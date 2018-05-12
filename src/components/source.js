@@ -8,24 +8,24 @@ const titles =
   {
     title: "Project TCA",
     lang:
-    <span><i class="devicon-java-plain"></i>
-      <i class="devicon-mysql-plain"></i>
+    <span><i className="devicon-java-plain"></i>
+      <i className="devicon-mysql-plain"></i>
       <i className="devicon-javascript-plain"></i>
     </span>,
     sUrl:
-    <a href="https://www.pqtca.com"></a>,
-    desc: "Full Stack Java Application using custom CSS, JS, Jquery, Spring MVC, Spring Boot.
-           Site was built for a client in approximately 4 days. Utilizes JPA, Hibernate, Simple Mailer
-           and is hosted on Digital Ocean."
-      },
-      {
+    <a href="https://www.pqtca.com">
+      <i className="devicon-devicon-plain"></i>
+    </a>,
+    desc: " Full Stack Java Application using custom CSS, JS, Jquery, Spring MVC, Spring Boot.Site was built for a client in approximately 4 days. Utilizes JPA, Hibernate, Simple Mailer and is hosted on Digital Ocean."
+  },
+  {
         title: "Adlister (Craigslist Clone)",
         lang:
         <span>
           <i className="devicon-amazonwebservices-original"></i>
-          <i class="devicon-java-plain"></i>
-          <i class="devicon-mysql-plain"></i>
-          <i class="devicon-bootstrap-plain"></i>
+          <i className="devicon-java-plain"></i>
+          <i className="devicon-mysql-plain"></i>
+          <i className="devicon-bootstrap-plain"></i>
         </span>,
         sUrl:
         <a href="http://tbclister-env.smz2mnhxpg.us-east-1.elasticbeanstalk.com/ads">
