@@ -6,24 +6,37 @@ import '../css/porfolio.css';
 const titles =
 [
   {
-    title: "Adlister (Craigslist Clone)",
+    title: "Project TCA",
     lang:
-    <span>
-      <i className="devicon-amazonwebservices-original"></i>
-        <i class="devicon-java-plain"></i>
-        <i class="devicon-mysql-plain"></i>
-        <i class="devicon-bootstrap-plain"></i>
-      </span>,
-    sUrl:
-      <a href="http://tbclister-env.smz2mnhxpg.us-east-1.elasticbeanstalk.com/ads">
-        <i className="devicon-devicon-plain"></i>
-      </a>,
-      desc: " Full stack MVC project providing persistance through a Relational dB. The site is hosted on AWS's ElasticBeanstalk and data is stored on AWS's RDS using MySQL 5.6. The server is being run using AWS's EC2 service running Tomcat on Linux. To add a layer of fun to the project, design was completed using only Bootstrap 4 classes."
-  },
-  {
-    title: "Weather App",
-    lang: <span>
+    <span><i class="devicon-java-plain"></i>
+      <i class="devicon-mysql-plain"></i>
       <i className="devicon-javascript-plain"></i>
+    </span>,
+    sUrl:
+    <a href="https://www.pqtca.com"></a>,
+    desc: "Full Stack Java Application using custom CSS, JS, Jquery, Spring MVC, Spring Boot.
+           Site was built for a client in approximately 4 days. Utilizes JPA, Hibernate, Simple Mailer
+           and is hosted on Digital Ocean."
+      },
+      {
+        title: "Adlister (Craigslist Clone)",
+        lang:
+        <span>
+          <i className="devicon-amazonwebservices-original"></i>
+          <i class="devicon-java-plain"></i>
+          <i class="devicon-mysql-plain"></i>
+          <i class="devicon-bootstrap-plain"></i>
+        </span>,
+        sUrl:
+        <a href="http://tbclister-env.smz2mnhxpg.us-east-1.elasticbeanstalk.com/ads">
+          <i className="devicon-devicon-plain"></i>
+        </a>,
+        desc: " Full stack MVC project providing persistance through a Relational dB. The site is hosted on AWS's ElasticBeanstalk and data is stored on AWS's RDS using MySQL 5.6. The server is being run using AWS's EC2 service running Tomcat on Linux. To add a layer of fun to the project, design was completed using only Bootstrap 4 classes."
+      },
+      {
+        title: "Weather App",
+        lang: <span>
+          <i className="devicon-javascript-plain"></i>
       <i className="devicon-webpack-plain colored"></i>
     </span>,
     sUrl:
